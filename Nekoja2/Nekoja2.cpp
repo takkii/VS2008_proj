@@ -15,8 +15,13 @@ int main()  // NOLINT(bugprone-exception-escape)
 	   cout << "  ----------------------  " << endl;
 	   break;
 	  default:
-	   cout << cpp_ver << endl;
-	   cout << cpp_eql << endl;
+	   cout << "  ---------------------------------------------  " << endl;
+       cout << "" << endl;
+       cout << "    __cplusplus : " << cpp_ver << " Ì " << "equal int : " << cpp_eql << endl;
+	   cout << "" << endl;
+	   cout << "    int type equals : " << ( cpp_ver == cpp_eql ) << endl;
+	   cout << "" << endl;
+	   cout << "  ---------------------------------------------  " << endl;
 	}
 	return 0;
 }
