@@ -1,4 +1,4 @@
-// Nekoja2.cpp : コンソール アプリケーションのエントリ ポイントを定義します。
+// Nekoja2.cpp : 繧ｳ繝ｳ繧ｽ繝ｼ繝ｫ 繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ縺ｮ繧ｨ繝ｳ繝医Μ 繝昴う繝ｳ繝医ｒ螳夂ｾｩ縺励∪縺吶�
 //
 
 #include "stdafx.h"
@@ -11,7 +11,7 @@ int main()  // NOLINT(bugprone-exception-escape)
 	switch ( cpp_ver == cpp_eql ){
 	  case 1:
 	   cout << "  ----------------------  " << endl;
-       cout << "    現在の C++ : C++98  " << endl;
+           cout << "    迴ｾ蝨ｨ縺ｮ C++ : C++98  " << endl;
 	   cout << "  ---------------------- " << endl;
 	   break;
 	  default:
