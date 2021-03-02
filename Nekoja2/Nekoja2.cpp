@@ -6,19 +6,18 @@
 
 int main()  // NOLINT(bugprone-exception-escape)
 {	
-	int x = 123456 + 78910;
-	int y = 123 * 456;
-
-	cout << "MAX : ";
-	cout << x << endl;
-	cout << "MIN : ";
-	cout << y << endl;
-	cout << "" << endl;
+    int cpp_ver = __cplusplus;
+    int cpp_eql = 199711;
 	
-	if (x || y)
-       cout << x << endl;
-	else
-	   cout << y << endl;
+	switch ( cpp_ver == cpp_eql ){
+	  case 1:
 	   cout << "" << endl;
+       cout << "Œ»Ý‚Ì C++ : C++98" << endl;
+	   cout << "" << endl;
+	   break;
+	  default:
+	   cout << cpp_ver << endl;
+	   cout << cpp_eql << endl;
+	}
 	return 0;
 }
