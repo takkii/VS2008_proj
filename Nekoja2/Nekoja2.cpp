@@ -11,8 +11,8 @@ int main()  // NOLINT(bugprone-exception-escape)
 	switch ( cpp_ver == cpp_eql ){
 	  case 1:
 	   cout << "  ----------------------  " << endl;
-       cout << "    Œ»Ý‚ÌC++ : C++98  " << endl;
-	   cout << "  ---------------------- " << endl;
+       cout << "    Œ»Ý‚ÌC++ : C++98     " << endl;
+	   cout << "  ----------------------  " << endl;
 	   break;
 	  default:
 	   cout << cpp_ver << endl;
