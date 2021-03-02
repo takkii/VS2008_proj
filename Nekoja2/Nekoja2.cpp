@@ -16,9 +16,9 @@ int main()  // NOLINT(bugprone-exception-escape)
 	cout << "" << endl;
 	
 	if (x || y)
-		cout << x << endl;
+       cout << x << endl;
 	else
-		cout << y << endl;
-	    cout << "" << endl;
+	   cout << y << endl;
+	   cout << "" << endl;
 	return 0;
 }
