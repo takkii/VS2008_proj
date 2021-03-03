@@ -1,14 +1,10 @@
-// Nekoja2.cpp : コンソール アプリケーションのエントリ ポイントを定義します、E
-//
-
 #include "stdafx.h"
-
 
 int main()  // NOLINT(bugprone-exception-escape)
 {	
     int cpp_ver = __cplusplus;
     int cpp98 = 199711;
-	int cpp17 = 201703;
+    int cpp17 = 201703;
     int cpp14 = 201402;
     int cpp11 = 201103;
 
@@ -72,6 +68,5 @@ int main()  // NOLINT(bugprone-exception-escape)
 	   cout << "" << endl;
 	   cout << "  ---------------------------------------------  " << endl;
 	}
-
 	return 0;
 }
